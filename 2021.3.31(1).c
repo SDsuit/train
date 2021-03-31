@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<windows.h>
+#include<stdlib.h>
 int main()
 {
 	char arr1[] = "welcome to bit!!!!!!";
