@@ -25,8 +25,8 @@ int main()
 	int sz = sizeof(arr) / sizeof(arr[0]);
 	int ret = binary_search(arr, k, sz);
 		if (ret == -1)
-			printf("ÕÒ²»µ½Ö¸¶¨µÄÊı×Ö");
+			printf("æ‰¾ä¸åˆ°æŒ‡å®šçš„æ•°å­—");
 		else
-			printf("ÕÒµ½ÁË£¬ÏÂ±êÎª:%d \n", ret);
+			printf("æ‰¾åˆ°äº†ï¼Œä¸‹æ ‡ä¸º:%d \n", ret);
 	return 0;
 }
