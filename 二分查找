@@ -18,13 +18,13 @@ int main()
 			left = mid + 1;
 		else
 		{
-			printf("ур╣╫ак,об╠Йн╙%d\n", mid);
+			printf("Ф┴╬Е┬╟Д╨├О╪▄Д╦▀Ф═┤Д╦╨%d\n", mid);
 			break;
 		}
 	}
 	if (left > right)
 	{
-		printf("ур╡╩╣╫\n");
+		printf("Ф≈═ФЁ∙Ф┴╬Е┬╟к²\n");
 	}
 	return 0;
 }
