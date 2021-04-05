@@ -15,19 +15,19 @@ void game()
 	ret = rand() % 100 + 1;
 	while (1)
 	{
-		printf("请猜数字:>");
+		printf("璇风寽鏁板瓧:>");
 		scanf("%d", &guess);
 		if (guess > ret)
 		{
-			printf("猜大了\n");
+			printf("鐚滃ぇ浜哱n");
 		}
 		else if (guess < ret)
 		{
-			printf("猜小了\n");
+			printf("鐚滃皬浜哱n");
 		}
 		else
 		{
-			printf("恭喜你猜对了\n");
+			printf("鎭枩浣犵寽瀵逛簡\n");
 			break;
 		}
 	}
@@ -39,7 +39,7 @@ int main()
 	do
 	{
 		menu();
-		printf("请选择:>");
+		printf("璇烽�夋嫨:>");
 		scanf("%d", &input);
 		switch(input)
 		{
@@ -47,10 +47,10 @@ int main()
 				game();
 				break;
 			case 0:
-				printf("退出游戏\n");
+				printf("閫�鍑烘父鎴廫n");
 				break;
 			default:
-				printf("选择错误\n");
+				printf("閫夋嫨閿欒\n");
 				break;
 		}
 	} while (input);
